@@ -1,56 +1,118 @@
-# Angel One Stock Analysis MCP Server
+# Stock Analysis MCP Server
 
-A Model Context Protocol (MCP) server that integrates Angel One's SmartAPI with Claude Desktop for real-time stock market analysis. This project is adapted from the TradingView-based MCP server to work with Indian stock markets via Angel One.
+A Model Context Protocol (MCP) server for real-time stock market analysis with Claude Desktop. Supports **10+ free stock market APIs** including Yahoo Finance, Alpha Vantage, Twelve Data, Finnhub, and more. Perfect for analyzing Indian stocks (NSE/BSE) and global markets.
 
 ## 🌟 Features
 
-- **Live Market Data**: Fetch real-time stock prices, quotes, and market data from Angel One
+- **Multiple Free APIs**: Choose from 10+ free stock market data providers
+- **No API Key Required**: Works out-of-the-box with Yahoo Finance (default)
+- **Live Market Data**: Real-time stock prices, quotes, and market data
 - **Historical Data**: Access historical candle data for technical analysis
-- **SQLite Storage**: Daily databases for historical tracking
+- **PostgreSQL Storage**: Persistent database storage via Supabase
+- **Portfolio Analysis**: AI-powered portfolio allocation based on P/E and dividend yields
 - **MCP Integration**: Seamless integration with Claude Desktop
 - **Docker Support**: Containerized deployment for consistency
+- **API Fallback**: Automatic fallback to alternative APIs if primary fails
+
+## 📊 Supported APIs
+
+| API | Free Tier | API Key | Best For |
+|-----|-----------|---------|----------|
+| **Yahoo Finance** ⭐ | Unlimited | ❌ No | General use (DEFAULT) |
+| Alpha Vantage | 25/day | ✅ Yes | Technical indicators |
+| Twelve Data | 800/day | ✅ Yes | Real-time data |
+| Finnhub | 60/min | ✅ Yes | News & sentiment |
+| NSE India | Varies | ❌ No | Indian stocks (NSE) |
+| IEX Cloud | 50k/month | ✅ Yes | US fundamentals |
+| Polygon.io | 5/min | ✅ Yes | High-quality US data |
+| Marketstack | 100/month | ✅ Yes | Global coverage |
+
+**See [FREE_STOCK_APIS.md](FREE_STOCK_APIS.md) for complete list and details**
 
 ## 📋 Prerequisites
 
-1. **Angel One Account**: You need an active Angel One trading account
-2. **SmartAPI Access**: Register and get API credentials
-3. **Docker**: For containerized deployment
-4. **Claude Desktop**: Latest version installed
+1. **Database**: Supabase account (free tier available) or PostgreSQL
+2. **Docker** (optional): For containerized deployment
+3. **Claude Desktop**: Latest version installed
+4. **API Keys** (optional): Only if you want to use APIs other than Yahoo Finance
 
-## 🚀 Setup Guide
+## 🚀 Quick Start (No API Key Needed!)
 
-### Step 1: Get Angel One API Credentials
+### Step 1: Get Database (Supabase)
 
-1. **Sign up for SmartAPI**:
-   - Visit: https://smartapi.angelbroking.com/
-   - Click "Sign Up" and create an account
+1. **Sign up for Supabase** (free): https://supabase.com/
+2. **Create a new project**
+3. **Get your DATABASE_URL**:
+   - Go to Project Settings > Database
+   - Copy the "Connection String" (URI format)
 
-2. **Create an App**:
-   - Go to dashboard and click "Create an App"
-   - Select API Type: "Market Feed API" and "Historical Data API"
-   - Enter app name and details
-   - You'll receive an **API Key** and **Secret Key**
-
-3. **Enable TOTP** (Time-based One-Time Password):
-   - Visit: https://smartapi.angelbroking.com/enable-totp
-   - Enter your Angel One client ID and password
-   - Enter OTP sent to your email/mobile
-   - You'll see a QR code and a **TOTP token string** - save this!
-
-### Step 2: Configure Environment Variables
+### Step 2: Configure Environment
 
 1. Copy the example environment file:
 ```bash
 cp .env.example .env
 ```
 
-2. Edit `.env` and fill in your credentials:
+2. Edit `.env` and add your database URL:
 ```env
-ANGEL_API_KEY=your_api_key_from_smartapi
-ANGEL_CLIENT_ID=your_angel_one_client_id
-ANGEL_PASSWORD=your_angel_one_password
-ANGEL_TOTP_TOKEN=your_totp_token_from_step3
+# Required: Database
+DATABASE_URL=postgresql://postgres:yourpassword@db.xxx.supabase.co:5432/postgres
+
+# Optional: Choose API provider (default: yfinance - no key needed)
+STOCK_API_PROVIDER=yfinance
 ```
+
+**That's it! No API keys needed with Yahoo Finance (default provider)**
+
+### Step 3: Install Dependencies (if running locally)
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 4: Test the Setup
+
+```bash
+# Test API providers
+python test_api_providers.py
+
+# Analyze stocks
+python analyze_all_stocks.py
+```
+
+## 🔑 Using Other APIs (Optional)
+
+Want to use a different API? Here's how:
+
+### Option 1: Alpha Vantage (25 calls/day)
+```bash
+# 1. Get free API key: https://www.alphavantage.co/support/#api-key
+# 2. Add to .env:
+ALPHAVANTAGE_API_KEY=your_key_here
+STOCK_API_PROVIDER=alphavantage
+```
+
+### Option 2: Twelve Data (800 calls/day)
+```bash
+# 1. Get free API key: https://twelvedata.com/pricing
+# 2. Add to .env:
+TWELVEDATA_API_KEY=your_key_here
+STOCK_API_PROVIDER=twelvedata
+```
+
+### Option 3: Finnhub (60 calls/min)
+```bash
+# 1. Get free API key: https://finnhub.io/register
+# 2. Add to .env:
+FINNHUB_API_KEY=your_key_here
+STOCK_API_PROVIDER=finnhub
+```
+
+**See [FREE_STOCK_APIS.md](FREE_STOCK_APIS.md) for all 10+ API options!**
+
+---
+
+## 🐳 Docker Setup
 
 ### Step 3: Build Docker Image
 

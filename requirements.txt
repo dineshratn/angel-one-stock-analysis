@@ -12,8 +12,13 @@ requests>=2.32.0
 psycopg2-binary>=2.9.9
 sqlalchemy>=2.0.0
 
-# Yahoo Finance API (Free alternative)
-yfinance>=0.2.40
+# Stock Market APIs (Multiple free alternatives)
+yfinance>=0.2.40                    # Yahoo Finance (unlimited, no key)
+alpha-vantage>=2.3.1                # Alpha Vantage API client
+finnhub-python>=2.4.18              # Finnhub API client
+
+# Note: Twelve Data, Polygon, IEX Cloud, Marketstack use requests library
+# Their API clients are implemented in api_providers.py
 
 # Logging
 logzero>=1.7.0
