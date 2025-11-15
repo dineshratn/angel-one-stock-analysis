@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  angel-one-stock-analysis:
+    build: .
+    image: angel-one-stock-analysis:latest
+    container_name: angel-one-mcp-server
+    stdin_open: true  # Keep stdin open for MCP
+    tty: false
+    env_file:
+      - .env
+    volumes:
+      # Persist database outside container
+      - ./src/database:/app/src/database
+    restart: unless-stopped
+    
+    # Optional: for debugging
+    # command: ["python", "-m", "src.stock_analysis.main"]
+
+# Usage:
+# 1. Build: docker-compose build
+# 2. Run: docker-compose up -d
+# 3. Stop: docker-compose down
+# 4. Logs: docker-compose logs -f
+
+# For Claude Desktop integration, use the docker run command
+# from the README instead of docker-compose

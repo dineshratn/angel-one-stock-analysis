@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "docker-mcp": {
+      "command": "uvx",
+      "args": ["docker-mcp"]
+    },
+    "stock-analysis": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-v",
+        "/mnt/c/Users/dines/Downloads/claud_stock_files/angel-one-stock-analysis/angel-one-stock-analysis/src/database:/app/src/database",
+        "stock-analysis-yfinance"
+      ]
+    }
+  }
+}

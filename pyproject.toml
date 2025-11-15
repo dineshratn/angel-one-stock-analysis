@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "stock-analysis"
+version = "2.0.0"
+description = "Stock Analysis MCP Server using Yahoo Finance (Free API)"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mcp = "^1.1.2"
+pandas = "^2.2.0"
+requests = "^2.32.0"
+yfinance = "^0.2.40"
+logzero = "^1.7.0"
+psycopg2-binary = "^2.9.9"
+sqlalchemy = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
