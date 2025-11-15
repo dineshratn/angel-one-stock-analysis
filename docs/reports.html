@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Latest stock market analysis reports - Nifty 50 stocks, Indian ETFs, and Gold ETF comparison">
+    <title>Analysis Reports | Indian Stock Market</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .reports-hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        .report-card {
+            background: white;
+            border-radius: 1rem;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s;
+        }
+
+        .report-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .report-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #e5e7eb;
+        }
+
+        .report-title {
+            font-size: 1.75rem;
+            color: #1f2937;
+            margin: 0;
+        }
+
+        .report-badge {
+            background: #10b981;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+
+        .report-meta {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #6b7280;
+        }
+
+        .meta-icon {
+            font-size: 1.25rem;
+        }
+
+        .report-preview {
+            background: #f9fafb;
+            border-left: 4px solid #2563eb;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-family: 'Courier New', monospace;
+            font-size: 0.875rem;
+            overflow-x: auto;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .report-actions {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .btn-download {
+            background: #2563eb;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s;
+        }
+
+        .btn-download:hover {
+            background: #1d4ed8;
+            transform: translateY(-2px);
+        }
+
+        .btn-view {
+            background: white;
+            color: #2563eb;
+            border: 2px solid #2563eb;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s;
+        }
+
+        .btn-view:hover {
+            background: #2563eb;
+            color: white;
+        }
+
+        .highlights {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .highlight-box {
+            background: white;
+            border: 2px solid #e5e7eb;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            text-align: center;
+        }
+
+        .highlight-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #2563eb;
+        }
+
+        .highlight-label {
+            color: #6b7280;
+            font-size: 0.875rem;
+        }
+
+        .timestamp {
+            text-align: center;
+            color: #6b7280;
+            font-size: 0.875rem;
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>📊 Stock Analysis</h1>
+                    <span class="tagline">Analysis Reports</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="reports.html">Reports</a></li>
+                    <li><a href="https://github.com/dineshratn/angel-one-stock-analysis" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="reports-hero">
+        <div class="container">
+            <h1>Latest Analysis Reports</h1>
+            <p>Comprehensive market analysis updated daily</p>
+            <p class="timestamp">📅 Generated: November 15, 2025 | 🕐 07:45 AM IST</p>
+        </div>
+    </section>
+
+    <!-- Reports Section -->
+    <section style="padding: 4rem 0; background: #f9fafb;">
+        <div class="container">
+
+            <!-- Stock Analysis Report -->
+            <div class="report-card">
+                <div class="report-header">
+                    <h2 class="report-title">📈 Nifty 50 Stock Analysis</h2>
+                    <span class="report-badge">FRESH</span>
+                </div>
+
+                <div class="report-meta">
+                    <div class="meta-item">
+                        <span class="meta-icon">📊</span>
+                        <span>50 Stocks Analyzed</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-icon">⭐</span>
+                        <span>19 Buy Recommendations</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-icon">📄</span>
+                        <span>318 Lines</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-icon">💾</span>
+                        <span>15 KB</span>
+                    </div>
+                </div>
+
+                <div class="highlights">
+                    <div class="highlight-box">
+                        <div class="highlight-value">4</div>
+                        <div class="highlight-label">Strong Buy</div>
+                    </div>
+                    <div class="highlight-box">
+                        <div class="highlight-value">8</div>
+                        <div class="highlight-label">Buy</div>
+                    </div>
+                    <div class="highlight-box">
+                        <div class="highlight-value">7</div>
+                        <div class="highlight-label">Moderate Buy</div>
+                    </div>
+                    <div class="highlight-box">
+                        <div class="highlight-value">35.43x</div>
+                        <div class="highlight-label">Avg P/E Ratio</div>
+                    </div>
+                </div>
+
+                <div class="report-preview">
+                    <pre>====================================================================================================
+NIFTY 50 STOCKS - COMPREHENSIVE INVESTMENT ANALYSIS
+Based on P/E Ratio and Dividend Yield
+====================================================================================================
+
+📊 TOP INVESTMENT OPPORTUNITIES (Sorted by Score)
+----------------------------------------------------------------------------------------------------
+
+🏆 STRONG BUY STOCKS:
+1. POWERGRID    - Score: 100/100 | Price: ₹271.30  | P/E: 17.55x | Div: 5.00% | Allocation: 7.47%
+2. WIPRO        - Score: 100/100 | Price: ₹244.37  | P/E: 19.00x | Div: 4.48% | Allocation: 7.47%
+3. NTPC         - Score: 87/100  | Price: ₹328.45  | P/E: 17.59x | Div: 3.40% | Allocation: 6.49%
+4. COALINDIA    - Score: 82.6/100| Price: ₹386.95  | P/E: 7.64x  | Div: 6.92% | Allocation: 6.17%
+
+💼 BUY STOCKS:
+5. ONGC         - Score: 78.3/100| Price: ₹247.60  | P/E: 8.51x  | Div: 7.28% | Allocation: 5.84%
+6. INFY         - Score: 73.9/100| Price: ₹1502.80 | P/E: 21.52x | Div: 2.92% | Allocation: 5.52%
+7. ITC          - Score: 73.9/100| Price: ₹408.15  | P/E: 25.34x | Div: 3.87% | Allocation: 5.52%
+8. TCS          - Score: 73.9/100| Price: ₹3106.00 | P/E: 22.73x | Div: 2.00% | Allocation: 5.52%
+
+📉 LOWEST P/E RATIOS (Value Stocks):
+- TATAMOTORS: 6.66x
+- BPCL: 7.47x
+- COALINDIA: 7.64x
+
+💰 HIGHEST DIVIDEND YIELDS:
+- ONGC: 7.28%
+- COALINDIA: 6.92%
+- POWERGRID: 5.00%</pre>
+                </div>
+
+                <div class="report-actions">
+                    <a href="data/stock_analysis_report.txt" class="btn-download" download>
+                        📥 Download Full Report
+                    </a>
+                    <a href="data/stock_analysis_report.txt" class="btn-view" target="_blank">
+                        👁️ View Full Report
+                    </a>
+                </div>
+            </div>
+
+            <!-- ETF Analysis Report -->
+            <div class="report-card">
+                <div class="report-header">
+                    <h2 class="report-title">🥇 Indian ETF Tracker</h2>
+                    <span class="report-badge">LIVE</span>
+                </div>
+
+                <div class="report-meta">
+                    <div class="meta-item">
+                        <span class="meta-icon">📊</span>
+                        <span>17 ETFs Tracked</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-icon">💰</span>
+                        <span>7 Categories</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-icon">📄</span>
+                        <span>152 Lines</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-icon">💾</span>
+                        <span>9.9 KB</span>
+                    </div>
+                </div>
+
+                <div class="highlights">
+                    <div class="highlight-box">
+                        <div class="highlight-value">₹334</div>
+                        <div class="highlight-label">Avg Price</div>
+                    </div>
+                    <div class="highlight-box">
+                        <div class="highlight-value">4</div>
+                        <div class="highlight-label">Large Cap</div>
+                    </div>
+                    <div class="highlight-box">
+                        <div class="highlight-value">3</div>
+                        <div class="highlight-label">Gold ETFs</div>
+                    </div>
+                    <div class="highlight-box">
+                        <div class="highlight-value">0.05%</div>
+                        <div class="highlight-label">Lowest Expense</div>
+                    </div>
+                </div>
+
+                <div class="report-preview">
+                    <pre>====================================================================================================
+INDIAN ETF PRICE TRACKER
+====================================================================================================
+
+Total ETFs Tracked: 16
+
+🏆 TOP PERFORMERS (Near 52-Week High):
+- ICICINXT50.NS    : ₹73.84   | 0.00% below high
+- BANKBEES.NS      : ₹603.29  | 0.28% below high
+- PSUBNKBEES.NS    : ₹93.72   | 0.40% below high
+
+💎 VALUE OPPORTUNITIES (Near 52-Week Low):
+- LIQUIDBEES.NS    : ₹1,000.00 | 4.61% above low
+- ICICINXT50.NS    : ₹73.84    | 11.64% above low
+- SHARIABEES.NS    : ₹506.40   | 15.11% above low
+
+📦 Equity - Large Cap (4 ETFs):
+- NIFTYBEES.NS     : ₹292.83  | AUM: ₹10,000+ Cr | Expense: 0.05% ⭐
+- SETFNIF50.NS     : ₹276.57  | AUM: ₹12,000+ Cr | Expense: 0.07%
+- HDFCSENSEX.NS    : ₹95.19   | AUM: ₹1,000+ Cr  | Expense: 0.35%
+
+📦 Commodity - Gold (3 ETFs):
+- GOLDSHARE.NS     : ₹105.20  | AUM: ₹6,500+ Cr  | Expense: 1.00%
+- GOLDBEES.NS      : ₹103.81  | AUM: ₹2,000+ Cr  | Highest Liquidity
+- HDFCGOLD.NS      : ₹107.15  | AUM: ₹500+ Cr
+
+📦 Liquid/Debt (1 ETF):
+- LIQUIDBEES.NS    : ₹1,000.00 | AUM: ₹17,000+ Cr | Expense: 0.06%</pre>
+                </div>
+
+                <div class="report-actions">
+                    <a href="data/etf_analysis_report.txt" class="btn-download" download>
+                        📥 Download ETF Report
+                    </a>
+                    <a href="data/etf_analysis_report.txt" class="btn-view" target="_blank">
+                        👁️ View Full Report
+                    </a>
+                </div>
+            </div>
+
+            <!-- Gold ETF Report -->
+            <div class="report-card">
+                <div class="report-header">
+                    <h2 class="report-title">🥇 Gold ETF Detailed Analysis</h2>
+                    <span class="report-badge">PREMIUM</span>
+                </div>
+
+                <div class="report-meta">
+                    <div class="meta-item">
+                        <span class="meta-icon">🥇</span>
+                        <span>3 Gold ETFs</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-icon">📈</span>
+                        <span>+68% 1Y Returns</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-icon">📄</span>
+                        <span>221 Lines</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-icon">💾</span>
+                        <span>8.3 KB</span>
+                    </div>
+                </div>
+
+                <div class="highlights">
+                    <div class="highlight-box">
+                        <div class="highlight-value">+68%</div>
+                        <div class="highlight-label">1-Year Return</div>
+                    </div>
+                    <div class="highlight-box">
+                        <div class="highlight-value">+33%</div>
+                        <div class="highlight-label">3-Year CAGR</div>
+                    </div>
+                    <div class="highlight-box">
+                        <div class="highlight-value">45M</div>
+                        <div class="highlight-label">Daily Volume</div>
+                    </div>
+                    <div class="highlight-box">
+                        <div class="highlight-value">₹105</div>
+                        <div class="highlight-label">Best Price</div>
+                    </div>
+                </div>
+
+                <div class="report-preview">
+                    <pre>====================================================================================================
+GOLD ETF COMPREHENSIVE ANALYSIS
+====================================================================================================
+
+🥇 TOP PICK: GOLDSHARE.NS (Nippon India ETF Gold BeES)
+   Current Price: ₹105.20
+   1-Year Return: +68.32% ⭐
+   3-Year CAGR: +32.87%
+   AUM: ₹6,500+ Cr (Largest)
+   Liquidity: Good
+
+📊 PRICE COMPARISON:
+   Highest: HDFCGOLD.NS - ₹107.15
+   Lowest:  GOLDBEES.NS - ₹103.81
+   Difference: ₹3.34 (3.22%)
+
+📈 LIQUIDITY COMPARISON:
+   1. GOLDBEES.NS     - 45,272,859 units/day (EXCELLENT) ⭐
+   2. HDFCGOLD.NS     - 6,772,860 units/day (GOOD)
+   3. GOLDSHARE.NS    - 1,020,146 units/day (GOOD)
+
+💰 RETURNS COMPARISON (1-Year):
+   1. GOLDSHARE.NS    - +68.32%
+   2. HDFCGOLD.NS     - +68.13%
+   3. GOLDBEES.NS     - +68.00%
+
+🎯 INVESTMENT RECOMMENDATIONS:
+   ✅ Best Overall: GOLDSHARE.NS (Largest AUM + Best Returns)
+   ✅ Best Liquidity: GOLDBEES.NS (Highest trading volume)
+   ✅ Best Value: GOLDBEES.NS (Lowest price ₹103.81)
+
+📊 SAMPLE INVESTMENT (GOLDSHARE.NS @ ₹105.20):
+   ₹10,000  →  95.1 units  (~95g gold equivalent)
+   ₹25,000  → 237.6 units (~237g gold equivalent)
+   ₹50,000  → 475.3 units (~475g gold equivalent)
+   ₹1,00,000 → 950.6 units (~950g gold equivalent)</pre>
+                </div>
+
+                <div class="report-actions">
+                    <a href="data/gold_etf_report.txt" class="btn-download" download>
+                        📥 Download Gold Report
+                    </a>
+                    <a href="data/gold_etf_report.txt" class="btn-view" target="_blank">
+                        👁️ View Full Report
+                    </a>
+                </div>
+            </div>
+
+            <!-- Download All -->
+            <div style="text-align: center; margin-top: 3rem;">
+                <h3 style="margin-bottom: 1rem;">Download All Reports</h3>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="data/stock_analysis_report.txt" class="btn btn-primary" download>
+                        📊 Stock Report (15 KB)
+                    </a>
+                    <a href="data/etf_analysis_report.txt" class="btn btn-primary" download>
+                        🥇 ETF Report (9.9 KB)
+                    </a>
+                    <a href="data/gold_etf_report.txt" class="btn btn-primary" download>
+                        💰 Gold Report (8.3 KB)
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Stock Analysis Reports</h4>
+                    <p>Daily updated analysis of Indian stock market, ETFs, and investment opportunities.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Reports</h4>
+                    <ul>
+                        <li><a href="data/stock_analysis_report.txt">Nifty 50 Analysis</a></li>
+                        <li><a href="data/etf_analysis_report.txt">ETF Tracker</a></li>
+                        <li><a href="data/gold_etf_report.txt">Gold ETF Analysis</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="reports.html">Reports</a></li>
+                        <li><a href="https://github.com/dineshratn/angel-one-stock-analysis">GitHub</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Disclaimer</h4>
+                    <p class="disclaimer-text">Reports for informational purposes only. Not financial advice. Do your own research.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Stock Analysis | Open Source Project</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

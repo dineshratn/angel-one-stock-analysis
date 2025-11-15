@@ -1,0 +1,152 @@
+
+🔍 Starting ETF price tracking...
+
+====================================================================================================
+INDIAN ETF PRICE TRACKER
+====================================================================================================
+
+Fetching prices for 17 ETFs...
+
+✅ NIFTYBEES.NS         ₹    292.83
+✅ JUNIORBEES.NS        ₹    750.88
+✅ LIQUIDBEES.NS        ₹  1,000.00
+✅ BANKBEES.NS          ₹    603.29
+✅ HDFCNIF100.NS        ₹     27.15
+✅ HDFCSENSEX.NS        ₹     95.19
+✅ SETFNIF50.NS         ₹    276.57
+✅ SETFNN50.NS          ₹    744.14
+✅ ICICINXT50.NS        ₹     73.84
+$KOTAKBKETF.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+⚠️  No data for KOTAKBKETF.NS
+✅ GOLDSHARE.NS         ₹    105.20
+✅ GOLDBEES.NS          ₹    103.81
+✅ HDFCGOLD.NS          ₹    107.15
+✅ HNGSNGBEES.NS        ₹    533.00
+✅ PSUBNKBEES.NS        ₹     93.72
+✅ ITBEES.NS            ₹     39.95
+✅ SHARIABEES.NS        ₹    506.40
+
+====================================================================================================
+ETF ANALYSIS REPORT
+====================================================================================================
+
+📊 SUMMARY
+----------------------------------------------------------------------------------------------------
+Total ETFs Tracked:     16
+Average Price:          ₹334.57
+Highest Priced ETF:     Nippon India ETF Liquid BeES (₹1,000.00)
+Lowest Priced ETF:      HDFC Nifty 100 ETF (₹27.15)
+
+📁 ETFs BY CATEGORY
+----------------------------------------------------------------------------------------------------
+Equity - Large Cap               4 ETFs
+Equity - Mid Cap                 3 ETFs
+Equity - Sectoral                3 ETFs
+Commodity - Gold                 3 ETFs
+Liquid/Debt                      1 ETFs
+International - Hong Kong        1 ETFs
+Equity - Shariah Compliant       1 ETFs
+
+🏆 TOP PERFORMERS (Near 52-Week High)
+----------------------------------------------------------------------------------------------------
+Symbol               Name                                     Price        From High   
+----------------------------------------------------------------------------------------------------
+ICICINXT50.NS        ICICI Prudential Nifty Next 50 ETF       ₹    73.84    0.00% below
+BANKBEES.NS          Nippon India ETF Bank BeES               ₹   603.29    0.28% below
+PSUBNKBEES.NS        Nippon India ETF PSU Bank BeES           ₹    93.72    0.40% below
+NIFTYBEES.NS         Nippon India ETF Nifty BeES              ₹   292.83    0.86% below
+HDFCSENSEX.NS        HDFC Sensex ETF                          ₹    95.19    1.43% below
+
+💎 VALUE OPPORTUNITIES (Near 52-Week Low)
+----------------------------------------------------------------------------------------------------
+Symbol               Name                                     Price        From Low    
+----------------------------------------------------------------------------------------------------
+LIQUIDBEES.NS        Nippon India ETF Liquid BeES             ₹ 1,000.00    4.61% above
+ICICINXT50.NS        ICICI Prudential Nifty Next 50 ETF       ₹    73.84   11.64% above
+SHARIABEES.NS        Nippon India ETF Nifty Shariah BeES      ₹   506.40   15.11% above
+HDFCSENSEX.NS        HDFC Sensex ETF                          ₹    95.19   18.18% above
+ITBEES.NS            Nippon India ETF Nifty IT BeES           ₹    39.95   18.79% above
+
+📋 COMPLETE ETF LIST
+----------------------------------------------------------------------------------------------------
+Symbol               Name                                Type                      Price        Volume         
+----------------------------------------------------------------------------------------------------
+GOLDSHARE.NS         Nippon India ETF Gold BeES          Commodity - Gold          ₹   105.20       957,416
+GOLDBEES.NS          Nippon India ETF Gold BeES (Old)    Commodity - Gold          ₹   103.81    28,533,187
+HDFCGOLD.NS          HDFC Gold ETF                       Commodity - Gold          ₹   107.15     5,133,507
+NIFTYBEES.NS         Nippon India ETF Nifty BeES         Equity - Large Cap        ₹   292.83     4,717,609
+HDFCNIF100.NS        HDFC Nifty 100 ETF                  Equity - Large Cap        ₹    27.15        17,761
+HDFCSENSEX.NS        HDFC Sensex ETF                     Equity - Large Cap        ₹    95.19        14,556
+SETFNIF50.NS         SBI ETF Nifty 50                    Equity - Large Cap        ₹   276.57       712,990
+JUNIORBEES.NS        Nippon India ETF Nifty Junior BeE   Equity - Mid Cap          ₹   750.88       258,929
+SETFNN50.NS          SBI ETF Nifty Next 50               Equity - Mid Cap          ₹   744.14        36,289
+ICICINXT50.NS        ICICI Prudential Nifty Next 50 ET   Equity - Mid Cap          ₹    73.84             0
+BANKBEES.NS          Nippon India ETF Bank BeES          Equity - Sectoral         ₹   603.29       456,962
+PSUBNKBEES.NS        Nippon India ETF PSU Bank BeES      Equity - Sectoral         ₹    93.72     3,852,010
+ITBEES.NS            Nippon India ETF Nifty IT BeES      Equity - Sectoral         ₹    39.95    13,380,440
+SHARIABEES.NS        Nippon India ETF Nifty Shariah Be   Equity - Shariah Compliant ₹   506.40         6,270
+HNGSNGBEES.NS        Nippon India ETF Hang Seng BeES     International - Hong Kong ₹   533.00       176,701
+LIQUIDBEES.NS        Nippon India ETF Liquid BeES        Liquid/Debt               ₹ 1,000.00     2,589,261
+
+====================================================================================================
+CATEGORY-WISE ANALYSIS
+====================================================================================================
+
+📦 Equity - Large Cap
+----------------------------------------------------------------------------------------------------
+Symbol               Name                                     Price        AUM          Expense   
+----------------------------------------------------------------------------------------------------
+NIFTYBEES.NS         Nippon India ETF Nifty BeES              ₹   292.83  ₹10,000+ Cr  0.05%     
+HDFCNIF100.NS        HDFC Nifty 100 ETF                       ₹    27.15  ₹800+ Cr     0.35%     
+HDFCSENSEX.NS        HDFC Sensex ETF                          ₹    95.19  ₹1,000+ Cr   0.35%     
+SETFNIF50.NS         SBI ETF Nifty 50                         ₹   276.57  ₹12,000+ Cr  0.07%     
+
+📦 Equity - Mid Cap
+----------------------------------------------------------------------------------------------------
+Symbol               Name                                     Price        AUM          Expense   
+----------------------------------------------------------------------------------------------------
+JUNIORBEES.NS        Nippon India ETF Nifty Junior BeES       ₹   750.88  ₹2,500+ Cr   0.36%     
+SETFNN50.NS          SBI ETF Nifty Next 50                    ₹   744.14  ₹2,000+ Cr   0.30%     
+ICICINXT50.NS        ICICI Prudential Nifty Next 50 ETF       ₹    73.84  ₹1,500+ Cr   0.31%     
+
+📦 Liquid/Debt
+----------------------------------------------------------------------------------------------------
+Symbol               Name                                     Price        AUM          Expense   
+----------------------------------------------------------------------------------------------------
+LIQUIDBEES.NS        Nippon India ETF Liquid BeES             ₹ 1,000.00  ₹17,000+ Cr  0.06%     
+
+📦 Equity - Sectoral
+----------------------------------------------------------------------------------------------------
+Symbol               Name                                     Price        AUM          Expense   
+----------------------------------------------------------------------------------------------------
+BANKBEES.NS          Nippon India ETF Bank BeES               ₹   603.29  ₹5,500+ Cr   0.43%     
+PSUBNKBEES.NS        Nippon India ETF PSU Bank BeES           ₹    93.72  ₹1,200+ Cr   0.52%     
+ITBEES.NS            Nippon India ETF Nifty IT BeES           ₹    39.95  ₹800+ Cr     0.62%     
+
+📦 Commodity - Gold
+----------------------------------------------------------------------------------------------------
+Symbol               Name                                     Price        AUM          Expense   
+----------------------------------------------------------------------------------------------------
+GOLDSHARE.NS         Nippon India ETF Gold BeES               ₹   105.20  ₹6,500+ Cr   1.00%     
+GOLDBEES.NS          Nippon India ETF Gold BeES (Old)         ₹   103.81  ₹2,000+ Cr   1.00%     
+HDFCGOLD.NS          HDFC Gold ETF                            ₹   107.15  ₹500+ Cr     1.00%     
+
+📦 International - Hong Kong
+----------------------------------------------------------------------------------------------------
+Symbol               Name                                     Price        AUM          Expense   
+----------------------------------------------------------------------------------------------------
+HNGSNGBEES.NS        Nippon India ETF Hang Seng BeES          ₹   533.00  ₹400+ Cr     0.70%     
+
+📦 Equity - Shariah Compliant
+----------------------------------------------------------------------------------------------------
+Symbol               Name                                     Price        AUM          Expense   
+----------------------------------------------------------------------------------------------------
+SHARIABEES.NS        Nippon India ETF Nifty Shariah BeES      ₹   506.40  ₹300+ Cr     0.65%     
+
+====================================================================================================
+Report Generated: 2025-11-15 07:46:43
+====================================================================================================
+
+💾 Data exported to: indian_etf_prices_20251115.csv
+
+✅ ETF tracking complete!

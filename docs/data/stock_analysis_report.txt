@@ -1,0 +1,318 @@
+/app/analyze_all_stocks.py:39: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql_query(query, conn)
+====================================================================================================
+NIFTY 50 STOCKS - COMPREHENSIVE INVESTMENT ANALYSIS
+Based on P/E Ratio and Dividend Yield
+====================================================================================================
+
+📊 TOP INVESTMENT OPPORTUNITIES (Sorted by Score)
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+#1. POWERGRID - Power Grid Corporation of India Limited
+====================================================================================================
+  Price:              ₹271.30
+  Market Cap:         ₹252,419 Cr
+  P/E Ratio:          17.55x
+  Dividend Yield:     5.00%
+  52W Position:       24.5%
+  Day Change:         +0.35%
+  Volume:             10,307,673
+  
+  Investment Score:   100.0/100
+  Rating:             STRONG BUY
+  📈 BUY ALLOCATION:   7.47% of portfolio
+
+====================================================================================================
+#2. WIPRO - Wipro Limited
+====================================================================================================
+  Price:              ₹244.37
+  Market Cap:         ₹255,924 Cr
+  P/E Ratio:          19.00x
+  Dividend Yield:     4.48%
+  52W Position:       16.9%
+  Day Change:         +0.18%
+  Volume:             6,840,389
+  
+  Investment Score:   100.0/100
+  Rating:             STRONG BUY
+  📈 BUY ALLOCATION:   7.47% of portfolio
+
+====================================================================================================
+#3. NTPC - NTPC Limited
+====================================================================================================
+  Price:              ₹328.45
+  Market Cap:         ₹318,779 Cr
+  P/E Ratio:          17.59x
+  Dividend Yield:     3.40%
+  52W Position:       40.9%
+  Day Change:         +0.44%
+  Volume:             9,168,571
+  
+  Investment Score:   87.0/100
+  Rating:             STRONG BUY
+  📈 BUY ALLOCATION:   6.49% of portfolio
+
+====================================================================================================
+#4. COALINDIA - Coal India Limited
+====================================================================================================
+  Price:              ₹386.95
+  Market Cap:         ₹238,467 Cr
+  P/E Ratio:          7.64x
+  Dividend Yield:     6.92%
+  52W Position:       48.2%
+  Day Change:         +0.98%
+  Volume:             3,759,031
+  
+  Investment Score:   82.6/100
+  Rating:             STRONG BUY
+  📈 BUY ALLOCATION:   6.17% of portfolio
+
+====================================================================================================
+#5. ONGC - Oil and Natural Gas Corporation Limited
+====================================================================================================
+  Price:              ₹247.60
+  Market Cap:         ₹311,550 Cr
+  P/E Ratio:          8.51x
+  Dividend Yield:     7.28%
+  52W Position:       62.2%
+  Day Change:         +0.86%
+  Volume:             9,183,429
+  
+  Investment Score:   78.3/100
+  Rating:             BUY
+  📈 BUY ALLOCATION:   5.84% of portfolio
+
+====================================================================================================
+#6. INFY - Infosys Limited
+====================================================================================================
+  Price:              ₹1,502.80
+  Market Cap:         ₹626,957 Cr
+  P/E Ratio:          21.52x
+  Dividend Yield:     2.92%
+  52W Position:       28.0%
+  Day Change:         -1.13%
+  Volume:             9,737,271
+  
+  Investment Score:   73.9/100
+  Rating:             BUY
+  📈 BUY ALLOCATION:   5.52% of portfolio
+
+====================================================================================================
+#7. ITC - ITC Limited
+====================================================================================================
+  Price:              ₹408.15
+  Market Cap:         ₹511,324 Cr
+  P/E Ratio:          25.34x
+  Dividend Yield:     3.87%
+  52W Position:       17.8%
+  Day Change:         +0.85%
+  Volume:             64,018,021
+  
+  Investment Score:   73.9/100
+  Rating:             BUY
+  📈 BUY ALLOCATION:   5.52% of portfolio
+
+====================================================================================================
+#8. TCS - Tata Consultancy Services Limited
+====================================================================================================
+  Price:              ₹3,106.00
+  Market Cap:         ₹1,123,778 Cr
+  P/E Ratio:          22.73x
+  Dividend Yield:     2.00%
+  52W Position:       14.7%
+  Day Change:         +0.52%
+  Volume:             2,210,337
+  
+  Investment Score:   73.9/100
+  Rating:             BUY
+  📈 BUY ALLOCATION:   5.52% of portfolio
+
+====================================================================================================
+#9. HCLTECH - HCL Technologies Limited
+====================================================================================================
+  Price:              ₹1,594.60
+  Market Cap:         ₹431,421 Cr
+  P/E Ratio:          25.51x
+  Dividend Yield:     3.00%
+  52W Position:       41.1%
+  Day Change:         +0.29%
+  Volume:             2,543,826
+  
+  Investment Score:   69.6/100
+  Rating:             BUY
+  📈 BUY ALLOCATION:   5.19% of portfolio
+
+====================================================================================================
+#10. BPCL - Bharat Petroleum Corporation Limited
+====================================================================================================
+  Price:              ₹371.15
+  Market Cap:         ₹161,217 Cr
+  P/E Ratio:          7.47x
+  Dividend Yield:     4.00%
+  52W Position:       93.9%
+  Day Change:         -0.76%
+  Volume:             6,848,455
+  
+  Investment Score:   69.6/100
+  Rating:             BUY
+  📈 BUY ALLOCATION:   5.19% of portfolio
+
+====================================================================================================
+#11. TECHM - Tech Mahindra Limited
+====================================================================================================
+  Price:              ₹1,439.20
+  Market Cap:         ₹127,430 Cr
+  P/E Ratio:          28.49x
+  Dividend Yield:     3.10%
+  52W Position:       38.4%
+  Day Change:         -0.35%
+  Volume:             1,220,540
+  
+  Investment Score:   69.6/100
+  Rating:             BUY
+  📈 BUY ALLOCATION:   5.19% of portfolio
+
+====================================================================================================
+#12. SBIN - State Bank of India
+====================================================================================================
+  Price:              ₹967.85
+  Market Cap:         ₹896,335 Cr
+  P/E Ratio:          10.77x
+  Dividend Yield:     1.67%
+  52W Position:       98.8%
+  Day Change:         +1.56%
+  Volume:             11,028,375
+  
+  Investment Score:   65.2/100
+  Rating:             BUY
+  📈 BUY ALLOCATION:   4.87% of portfolio
+
+====================================================================================================
+#13. HINDALCO - Hindalco Industries Limited
+====================================================================================================
+  Price:              ₹803.65
+  Market Cap:         ₹179,626 Cr
+  P/E Ratio:          10.06x
+  Dividend Yield:     0.62%
+  52W Position:       81.0%
+  Day Change:         -0.42%
+  Volume:             4,113,192
+  
+  Investment Score:   60.9/100
+  Rating:             MODERATE BUY
+  📈 BUY ALLOCATION:   4.55% of portfolio
+
+====================================================================================================
+#14. HEROMOTOCO - Hero MotoCorp Limited
+====================================================================================================
+  Price:              ₹5,538.50
+  Market Cap:         ₹110,815 Cr
+  P/E Ratio:          20.99x
+  Dividend Yield:     2.36%
+  52W Position:       92.5%
+  Day Change:         +0.31%
+  Volume:             938,550
+  
+  Investment Score:   56.5/100
+  Rating:             MODERATE BUY
+  📈 BUY ALLOCATION:   4.22% of portfolio
+
+====================================================================================================
+#15. ICICIBANK - ICICI Bank Limited
+====================================================================================================
+  Price:              ₹1,373.00
+  Market Cap:         ₹981,160 Cr
+  P/E Ratio:          18.59x
+  Dividend Yield:     0.79%
+  52W Position:       59.6%
+  Day Change:         -0.07%
+  Volume:             9,694,305
+  
+  Investment Score:   56.5/100
+  Rating:             MODERATE BUY
+  📈 BUY ALLOCATION:   4.22% of portfolio
+
+
+====================================================================================================
+📈 INVESTMENT SUMMARY & ALLOCATION
+====================================================================================================
+
+STRONG BUY:         4 stocks
+BUY:                8 stocks
+MODERATE BUY:       7 stocks
+HOLD:               7 stocks
+AVOID:              24 stocks
+
+----------------------------------------------------------------------------------------------------
+💰 RECOMMENDED PORTFOLIO ALLOCATION (Buy-worthy stocks only)
+----------------------------------------------------------------------------------------------------
+
+Rank  Symbol      Company                            Score     Allocation  Price       
+----------------------------------------------------------------------------------------------------
+1     WIPRO       Wipro Limited                       100.0/100    7.47%      ₹   244.37
+2     POWERGRID   Power Grid Corporation of India L   100.0/100    7.47%      ₹   271.30
+3     NTPC        NTPC Limited                         87.0/100    6.49%      ₹   328.45
+4     COALINDIA   Coal India Limited                   82.6/100    6.17%      ₹   386.95
+5     ONGC        Oil and Natural Gas Corporation L    78.3/100    5.84%      ₹   247.60
+6     INFY        Infosys Limited                      73.9/100    5.52%      ₹ 1,502.80
+7     ITC         ITC Limited                          73.9/100    5.52%      ₹   408.15
+8     TCS         Tata Consultancy Services Limited    73.9/100    5.52%      ₹ 3,106.00
+9     HCLTECH     HCL Technologies Limited             69.6/100    5.19%      ₹ 1,594.60
+10    BPCL        Bharat Petroleum Corporation Limi    69.6/100    5.19%      ₹   371.15
+11    TECHM       Tech Mahindra Limited                69.6/100    5.19%      ₹ 1,439.20
+12    SBIN        State Bank of India                  65.2/100    4.87%      ₹   967.85
+13    HINDALCO    Hindalco Industries Limited          60.9/100    4.55%      ₹   803.65
+14    HEROMOTOCO  Hero MotoCorp Limited                56.5/100    4.22%      ₹ 5,538.50
+15    AXISBANK    Axis Bank Limited                    56.5/100    4.22%      ₹ 1,241.60
+16    BAJAJ-AUTO  Bajaj Auto Limited                   56.5/100    4.22%      ₹ 8,843.00
+17    DRREDDY     Dr. Reddy's Laboratories Limited     56.5/100    4.22%      ₹ 1,246.00
+18    ICICIBANK   ICICI Bank Limited                   56.5/100    4.22%      ₹ 1,373.00
+19    TATAMOTORS  Tata Motors Passenger Vehicles Li    52.2/100    3.90%      ₹   405.85
+----------------------------------------------------------------------------------------------------
+TOTAL                                                          100.00%
+
+====================================================================================================
+🏆 CATEGORY WINNERS
+====================================================================================================
+
+📉 LOWEST P/E RATIOS (Value Stocks):
+----------------------------------------------------------------------------------------------------
+  TATAMOTORS   Tata Motors Passenger Vehicles Limited     P/E:   6.66x  ₹405.85
+  BPCL         Bharat Petroleum Corporation Limited       P/E:   7.47x  ₹371.15
+  COALINDIA    Coal India Limited                         P/E:   7.64x  ₹386.95
+  ONGC         Oil and Natural Gas Corporation Limited    P/E:   8.51x  ₹247.60
+  HINDALCO     Hindalco Industries Limited                P/E:  10.06x  ₹803.65
+
+💰 HIGHEST DIVIDEND YIELDS (Income Stocks):
+----------------------------------------------------------------------------------------------------
+  ONGC         Oil and Natural Gas Corporation Limited    Yield:  7.28%  ₹247.60
+  COALINDIA    Coal India Limited                         Yield:  6.92%  ₹386.95
+  POWERGRID    Power Grid Corporation of India Limited    Yield:  5.00%  ₹271.30
+  WIPRO        Wipro Limited                              Yield:  4.48%  ₹244.37
+  BPCL         Bharat Petroleum Corporation Limited       Yield:  4.00%  ₹371.15
+
+====================================================================================================
+📊 MARKET STATISTICS
+====================================================================================================
+
+Average P/E Ratio:        35.43x
+Median P/E Ratio:         29.26x
+Average Dividend Yield:   1.56%
+Median Dividend Yield:    0.85%
+
+====================================================================================================
+⚠️  IMPORTANT DISCLAIMERS
+====================================================================================================
+
+1. This analysis is based ONLY on P/E ratio and dividend yield metrics
+2. Does NOT consider: debt levels, growth rates, industry trends, management quality
+3. Allocation percentages are algorithmic suggestions - not personalized advice
+4. Past performance does not guarantee future results
+5. Always conduct thorough research and consult a financial advisor
+6. Consider your risk tolerance, investment horizon, and financial goals
+7. Diversification across sectors is recommended
+
+====================================================================================================
+Analysis Date: November 14, 2025
+====================================================================================================
