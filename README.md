@@ -8,6 +8,7 @@ A Model Context Protocol (MCP) server for real-time stock market analysis with C
 - **No API Key Required**: Works out-of-the-box with Yahoo Finance (default)
 - **Live Market Data**: Real-time stock prices, quotes, and market data
 - **Historical Data**: Access historical candle data for technical analysis
+- **Indian ETF Tracker**: Track 17+ popular Indian ETFs with live prices ⭐ NEW
 - **PostgreSQL Storage**: Persistent database storage via Supabase
 - **Portfolio Analysis**: AI-powered portfolio allocation based on P/E and dividend yields
 - **MCP Integration**: Seamless integration with Claude Desktop
@@ -109,6 +110,38 @@ STOCK_API_PROVIDER=finnhub
 ```
 
 **See [FREE_STOCK_APIS.md](FREE_STOCK_APIS.md) for all 10+ API options!**
+
+---
+
+## 📊 Indian ETF Tracking
+
+Track prices of 17+ popular Indian ETFs (Exchange Traded Funds):
+
+```bash
+# Run ETF tracker
+python indian_etfs.py
+
+# Output: Live prices, category analysis, top performers, value picks
+# Exports to CSV automatically
+```
+
+### **Tracked ETFs:**
+- **Equity ETFs:** Nifty 50, Nifty Next 50, Nifty 100, Sensex
+- **Sectoral ETFs:** Banking, IT, PSU Banks
+- **Gold ETFs:** Multiple gold tracking funds
+- **Liquid ETFs:** Cash management and emergency funds
+- **International:** Hang Seng (Hong Kong market)
+- **Shariah-Compliant:** Nifty Shariah
+
+### **Features:**
+- ✅ Live NAV prices
+- ✅ 52-week high/low tracking
+- ✅ Volume and AUM data
+- ✅ Expense ratio comparison
+- ✅ Category-wise analysis
+- ✅ CSV export for further analysis
+
+**See [INDIAN_ETFS.md](INDIAN_ETFS.md) for complete ETF list and investment strategies!**
 
 ---
 
